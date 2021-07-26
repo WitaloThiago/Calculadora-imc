@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    }
+    body{
+    background-color: rgb(19, 182, 231);    
+    }
+    
+    #pai{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    
+    
+    
+    .h2{
+    text-align: center;
+    color: rgb(19, 182, 231);
+    }
+    
+    
+    #filho > input{
+    display: block;
+    width: 12em;
+    border-color: rgb(19, 182, 231);
+    margin: 10px;
+    padding: 3px;
+    border-radius: 10px 0 10px 0;
+    position: relative;
+    outline: none;
+    }
+    
+    #filho > .btn{
+    position: relative;
+    padding: 8px;
+    width: 6em;
+    border-radius: 7px;
+    background-color: rgb(19, 182, 231);
+    color:black;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    }
+    
+    #filho > .btn:active{
+    background-color: white;
+    color: rgb(19, 182, 231);
+    border: 1px solid;
+    border-color: rgb(19, 182, 231);
+    }
+    
+    #filho > #resultado{
+    text-align: center;
+    margin-top: 4%;
+    color: rgb(102, 102, 96);
+    }
+    
+    .link{
+    color: white;
+    font-size:2vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    }
+    
+    @media screen and (max-width: 600px) {
+    
+    #pai{
+        width: 310px;
+        
+    }
+    
+    .link{
+    font-size: 1.3rem;    
+    }
+    
+    }
